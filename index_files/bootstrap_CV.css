@@ -5,6 +5,10 @@ body {
     background-color: #7F7F7F;
 }
 
+.img-responsive{
+  max-width: 74%;
+}
+
 .page-header{
   text-align: center;
 }
@@ -98,16 +102,20 @@ opacity:0.8;
 }
 
 .resume-heading .social-btns{
-  margin-top:15px;
+  margin-top:0px;
 }
 .resume-heading .social-btns i.fa{
-  margin-left:-5px;
+  margin-left:-0px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1300px) {
   .resume-heading .social-btn-holder{
     padding:5px;
   }
+}
+
+.list-group {
+    margin-bottom: 10px;
 }
 
 /* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
